@@ -1,0 +1,15 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  serie_documento: MyString
+  cliente: one
+  observaciones: MyString
+  total: 1.5
+  user: one
+
+two:
+  serie_documento: MyString
+  cliente: two
+  observaciones: MyString
+  total: 1.5
+  user: two

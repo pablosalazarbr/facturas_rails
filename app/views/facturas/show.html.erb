@@ -1,0 +1,29 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Serie documento:</strong>
+  <%= @factura.serie_documento %>
+</p>
+
+<p>
+  <strong>Cliente:</strong>
+  <%= @factura.cliente_id %>
+</p>
+
+<p>
+  <strong>Observaciones:</strong>
+  <%= @factura.observaciones %>
+</p>
+
+<p>
+  <strong>Total:</strong>
+  <%= @factura.total %>
+</p>
+
+<p>
+  <strong>User:</strong>
+  <%= @factura.user_id %>
+</p>
+
+<%= link_to 'Edit', edit_factura_path(@factura) %> |
+<%= link_to 'Back', facturas_path %>

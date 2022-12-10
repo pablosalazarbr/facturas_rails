@@ -1,0 +1,14 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Producto:</strong>
+  <%= @venta.producto_id %>
+</p>
+
+<p>
+  <strong>Factura:</strong>
+  <%= @venta.factura_id %>
+</p>
+
+<%= link_to 'Edit', edit_venta_path(@venta) %> |
+<%= link_to 'Back', ventas_path %>

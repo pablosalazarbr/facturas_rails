@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta content='text/html; charset=UTF-8' http-equiv='Content-Type' />
+  </head>
+  <body>
+    <h1>Bienvenido a e-tickets, <%= @cliente.nombre %></h1>
+    <p>
+      Has creado tu cuenta con éxito en e-tickets.com,
+      tu nombre de usuario es: <%= @cliente.nombre %>.<br>
+    </p>
+    <p>
+      Para iniciar sesion, solo has click en este link: <%= @url %>.
+    </p>
+    <p>Gracias por unirte y que tengas un día genial!</p>
+  </body>
+</html>
